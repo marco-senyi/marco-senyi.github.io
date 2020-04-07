@@ -1,0 +1,12 @@
+
+h1 {
+	padding-bottom: 20px !important;
+}
+
+body {
+	padding-top: 50px !important;
+}
+
+.jumbotron .container p {
+	line-height: 200%;
+}
