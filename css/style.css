@@ -8,17 +8,17 @@ body {
 }
 
 #code {
-	font-family: "Lucida Console", Courier, monospace;
+	font-family: "Lucida Console", Courier, monospace !important;
 }
 
 #Mybrand{
-	font-family: "Times New Roman", Times, serif;
-	font-weight: bold;
-	font-variant: small-caps;
-	color: #b3b3ff
+	font-family: "Times New Roman", Times, serif !important;
+	font-weight: bold !important;
+	font-variant: small-caps !important;
+	color: #b3b3ff !important;
 }
 
 .jumbotron .container p {
-	line-height: 200%;	
+	line-height: 200% !important;	
 }
 
