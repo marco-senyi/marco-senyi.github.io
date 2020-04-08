@@ -23,7 +23,7 @@
   
 	<body>
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-			<a class="navbar-brand" href="#">My Page</a>
+			<a class="navbar-brand" id="Mybrand">My Page</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarImplement" aria-controls="navbarImplement" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -31,8 +31,21 @@
 			<div class="collapse navbar-collapse" id="navbarImplement">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#Welcome">Home <span class="sr-only">(current)</span></a>
 					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#Photo">Photo <span class="sr-only">(current)</span></a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#Work">My Work <span class="sr-only">(current)</span></a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="#Resume">Resume <span class="sr-only">(current)</span></a>
+					</li>
+					
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Source</a>
 						<div class="dropdown-menu" aria-labelledby="dropdown01">
@@ -48,7 +61,7 @@
 
 			<div class="jumbotron">
 				<div class="container">
-					<h1 class="display-3">Welcome to my home page!</h1>
+					<h1 class="display-3" id="Welcome">Welcome to my home page!</h1>
 
 					<p>I am Lai Sen Yi, you may call me Marco. A year 3 student studying Computing at PolyU.</p>
 					<p>This is my Home Page Implemented by Bootstrap. Feel free to have a look. </p>
@@ -60,16 +73,16 @@
 			<div class="container">
 
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4" id="Photo">
 						<h2>Photo</h2>
 						<img src="img/icon.jpg" class="img-fluid" alt="Responsive image">
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" id="Work">
 						<h2>My Work</h2>
 						<p>Here are some project I done before</p>
-						<a href="https://github.com/marco-senyi?tab=repositories" class="stretched-link">Github repo list</a>
+						<a href="https://github.com/marco-senyi?tab=repositories" class="stretched-link" id="code">Github repo list</a>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-4" id="Resume">
 						<h2>Resume</h2>
 						<p>If you are HR manager, you may get my resume here.</p>
 						<p><a class="btn btn-primary" target="_blank" href="https://raw.githubusercontent.com/marco-senyi/marco-senyi.github.io/51cffa70dcbf55769609c62b011ce7a68659792e/fake_resume.txt" role="button">Download</a></p>
@@ -83,7 +96,7 @@
 		</main>
 
 		<footer class="container">
-			<p>update 2020-04-07</p>
+			<p>update 2020-04-08</p>
 		</footer>
 		
 		

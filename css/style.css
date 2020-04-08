@@ -7,6 +7,18 @@ body {
 	padding-top: 50px !important;
 }
 
-.jumbotron .container p {
-	line-height: 200%;
+#code {
+	font-family: "Lucida Console", Courier, monospace;
 }
+
+#Mybrand{
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #b3b3ff
+}
+
+.jumbotron .container p {
+	line-height: 200%;	
+}
+
